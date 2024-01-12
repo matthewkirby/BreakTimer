@@ -1,0 +1,17 @@
+
+.hContainer, .vContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.hContainer {
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.vContainer {
+  flex-direction: column;
+  width: 620px;
+}
+
