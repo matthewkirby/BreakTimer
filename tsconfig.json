@@ -20,7 +20,8 @@
     "allowSyntheticDefaultImports": true,
     "paths": {
       "@components/*": [ "./src/components/*" ],
-      "@css/*": [ "./src/css/*" ]
+      "@css/*": [ "./src/css/*" ],
+      "use-sound": [ "./generated-types/" ]
     },
     "plugins": [
       { "name": "next" },
